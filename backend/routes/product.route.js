@@ -5,7 +5,7 @@ import {
   createProduct,
   deleteProduct,
   getProducts,
-  updatedProduct,
+  updateProduct,
 } from "../controller/product.controller.js";
 
 const router = express.Router();
@@ -16,6 +16,6 @@ router.delete("/:id", deleteProduct);
 
 router.get("/", getProducts);
 
-router.put("/:id", updatedProduct);
+router.put("/:id", updateProduct);
 
 export default router;
