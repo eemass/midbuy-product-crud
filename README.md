@@ -29,3 +29,6 @@ A simple and intuitive product store application built with the MERN stack. User
 - **Node.js**
 - **Express.js**
 - **MongoDB**
+
+## Live Demo
+Check out the live version here: https://midbuy.onrender.com/
